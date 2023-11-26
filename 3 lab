@@ -1,4 +1,3 @@
-
 #include <iostream>
 
 int main() {
@@ -17,7 +16,7 @@ int main() {
     }
 
     // Виводимо нові значення змінних A та B
-    std::cout << "Новые значения:\n";
+    std::cout << "Нове значення:\n";
     std::cout << "A: " << A << "\n";
     std::cout << "B: " << B << "\n";
 
