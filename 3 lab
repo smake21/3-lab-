@@ -1,0 +1,25 @@
+
+#include <iostream>
+
+int main() {
+    // Вводимо значення змінних A та B
+    double A, B;
+    std::cout << "Введіть значення A: ";
+    std::cin >> A;
+    std::cout << "Введіть значення B: ";
+    std::cin >> B;
+
+    // Перерозподіляємо значення змінних
+    if (A > B) {
+        double temp = A;
+        A = B;
+        B = temp;
+    }
+
+    // Виводимо нові значення змінних A та B
+    std::cout << "Новые значения:\n";
+    std::cout << "A: " << A << "\n";
+    std::cout << "B: " << B << "\n";
+
+    return 0;
+}
